@@ -1,0 +1,13 @@
+/* GENERAL */
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+.wrapper{
+    max-width: 1080px;
+    margin:auto;
+}
+
+h1{
+    color: red;
+}
