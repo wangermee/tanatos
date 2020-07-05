@@ -9,10 +9,194 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>hello</h1>
-    <p>test</p>
-    <p>Remi Test Windows gi </p>
-    <p>test3</p>
+    <!-- section avec grosse image -->
+    <section id="weDesign">
+        <header>
+            <div>
+                <p>Tanatos<span>Studio</span></p>
+                <div>
+                    <p>Menu</p>
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <div>
+            <h1>we design <span>things</span></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi, et itaque, iusto.</p>
+            <div>
+                <a href="#">hire us</a>
+                <a href="#">our works</a>
+            </div>
+            <i class="far fa-arrow-alt-circle-down"></i>
+        </div>
+    </section>
+
+    <!-- section avec fond blanc -->
+    <section id="skill">
+        <div>
+            <div>
+                <i class="fas fa-print"></i>
+               <h3></h3> 
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro</p>
+            </div>
+
+            <div>
+                <i class="fas fa-desktop"></i>
+                <h3></h3> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro</p>
+             </div>
+
+             <div>
+                <i class="fas fa-mobile-alt"></i>
+                <h3></h3> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro</p>
+             </div>
+
+             <div>
+                <i class="fas fa-pencil-ruler"></i>
+                <h3></h3> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro</p>
+             </div>
+        </div>
+    </section>
+
+    <!-- section avec formulaire + img de fond -->
+    <section id="newsletter">
+        <div>
+            <form action="actions/formNewsletter.php" method="POST" id="formNewsletter">
+                <input type="email" id="emailNewsletter" name="emailNewsletter" placeholder="Enter Your email adress for newsletter">
+                <input type="hidden" id="actionNewsletter" name="actionNewsletter" >
+                <button type="submit">subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- section avec fond blanc et petite image -->
+    <section id="ourWorks">
+            <div>
+                <div>
+                    <h2>our works</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi, et itaque, iusto.</p>
+                </div>
+
+                <div>
+                    <img src="#" alt="#" srcset="#">
+                    <img src="#" alt="#" srcset="#">
+                    <img src="#" alt="#" srcset="#">
+                    <img src="#" alt="#" srcset="#">
+                    <img src="#" alt="#" srcset="#">
+                    <img src="#" alt="#" srcset="#">
+                </div>
+
+                <a href="#">show more</a>
+            </div>
+    </section>
+
+    <!-- section avec fond image et 1 commentaire -->
+    <section id="reply">
+        <div>
+            <img src="#" alt="#" srcset="#">
+            <blockquote>
+                <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi, et itaque, iusto.</q>
+                <footer>John Smith</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- section avec fond blanc et l equipe -->
+    <section id="team">
+        <h2>our <span>team</span></h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi, et itaque, iusto.</p>
+
+        <div>
+            <div>
+                <img src="#" alt="#" srcset="#">
+                <h3>catherina gail</h3>
+                <div>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-google-plus"></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi.</p>
+            </div>
+
+            <div>
+                <img src="#" alt="#" srcset="#">
+                <h3>harvey rube</h3>
+                <div>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-google-plus"></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi.</p>
+            </div>
+
+            <div>
+                <img src="#" alt="#" srcset="#">
+                <h3>janet pris</h3>
+                <div>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-google-plus"></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi.</p>
+            </div>
+
+            <div>
+                <img src="#" alt="#" srcset="#">
+                <h3>kevin ward</h3>
+                <div>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-google-plus"></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi.</p>
+            </div>
+        </div>
+
+        <div>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+        </div>
+    </section>
+
+    <!-- section avec fond img et form de contact -->
+    <section id="conatct">
+        <div>
+            <h2>say <span>hello</span></h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi, et itaque, iusto.</p>
+
+            <form action="actions/formContact.php" method="POST" id="formContact">
+                <div>
+                    <input type="email" id="emailContact" name="emailContact" placeholder="Your Email">
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                </div>
+                <textarea name="message" id="message" name="message">Your Message</textarea>
+                <input type="hidden" id="actionContact" name="actionContact" >
+                <div>
+                    <button type="submit">subscribe</button>
+                    <div>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-google-plus"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </section>
+
+    <!-- section avec fond gris / footer -->
+    <footer>
+        <div>
+            <p><i class="far fa-copyright"></i> 2015 copyright design studio</p>
+            <p>deisgned by symu<span>.</span>co</p>
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
