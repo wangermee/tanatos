@@ -10,6 +10,12 @@
     margin:auto;
 }
 
+.orange {
+    width: 10em;
+    /* color: red; */
+    height: 9em;
+    padding: 38px;
+}
 /* GENERAL */
 h1, h2, h3{
     text-transform: uppercase;
@@ -76,7 +82,9 @@ a{
     border: solid 1px #65696e;
     border-radius: 50%;
 }
-
+.orange{
+    color: orange;
+}
 /* SECTION 3 NEWSLETTER */
 #newsletter{
     background-image: url("../../ressources/images/p1/tablet-791051.jpg");
