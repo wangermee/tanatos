@@ -2,17 +2,165 @@
 *{
     box-sizing: border-box;
     outline: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #3b434c;
 }
 .wrapper{
-    max-width: 1080px;
+    max-width: 980px;
     margin:auto;
 }
-/*
-h1{
-    color: red;
+
+/* GENERAL */
+h1, h2, h3{
+    text-transform: uppercase;
 }
-*/
-/*
-p{
-    color: green;
-}*/
+h1,h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+span{
+    color: #f7600e;
+}
+section{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* SECTION 1 WE DESIGN */
+#weDesign{
+    background-image: url("../../ressources/images/p1/macbook-925614.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background: rgba(0,0,0,0.6);*/
+    height: 800px;
+    color: #ffffff;
+}
+#weDesign header div{
+    display: flex;
+    justify-content: space-between;
+}
+#weDesign header div div p{
+    padding-right: 10px;
+}
+#weDesign header div div svg{
+    margin-top: 16px;
+}
+#weDesign a{
+    color: #ffffff ;
+}
+#weDesign a:nth-child(1){
+    background-color: #f7600e;
+}
+#weDesign a:nth-child(2){
+    border: solid 1px #65696e;
+}
+
+/* SECTION 2 SKILL */
+#skill{
+    height: 500px;
+}
+#skill div{
+    display: flex;
+}
+#skill div div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#skill div div div svg{
+    margin: auto;
+    border: solid 1px #65696e;
+    border-radius: 50%;
+}
+
+/* SECTION 3 NEWSLETTER */
+#newsletter{
+    background-image: url("../../ressources/images/p1/tablet-791051.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+#newsletter div{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+#newsletter div form{
+    margin-top: 80px;
+}
+
+/* SECTION 4 OUR WORKS */
+#ourWorks{
+    height: 1300px;
+}
+#ourWorks div div:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#ourWorks div div:nth-child(2) img{
+    width: 33%;
+    
+    padding: 10px;
+}
+#ourWorks a{
+    border: solid 1px #65696e;
+}
+
+
+/* SECTION 5 REPLY */
+#reply{
+    background-image: url("../../ressources/images/p3/woman-690036.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    height: 500px;
+}
+#reply div{
+    padding-top: 160px;
+}
+
+/* SECTION 6 OUR TEAM */
+#team{
+    height: 1000px;
+}
+#team div{
+    display: flex;
+}
+#team div .column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* SECTION 7 CONTACT */
+#contact{
+    background-image: url("../../ressources/images/p4/city-937541.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+}
+
+
+/* SECTION 8 FOOTER */
+#footer{
+    background-color: #3b434c;
+    height: 100px;
+}
+#footer div{
+    display: flex;
+    justify-content: space-between;
+}
+#footer p{
+    margin: 0;
+    color: #ffffff;
+    line-height: 100px;
+}
+

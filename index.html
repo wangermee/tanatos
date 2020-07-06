@@ -5,13 +5,14 @@
     <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tanatos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- section avec grosse image -->
     <section id="weDesign">
-        <header>
+        <header class="wrapper">
             <div>
                 <p>Tanatos<span>Studio</span></p>
                 <div>
@@ -21,7 +22,7 @@
             </div>
         </header>
 
-        <div>
+        <div class="wrapper">
             <h1>we design <span>things</span></h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi, et itaque, iusto.</p>
             <div>
@@ -34,27 +35,35 @@
 
     <!-- section avec fond blanc -->
     <section id="skill">
-        <div>
+        <div class="wrapper">
             <div>
-                <i class="fas fa-print"></i>
+                <div>
+                    <i class="fas fa-print"></i>
+                </div>
                <h3></h3> 
                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro</p>
             </div>
 
             <div>
-                <i class="fas fa-desktop"></i>
+                <div>
+                    <i class="fas fa-desktop"></i>
+                </div>
                 <h3></h3> 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro</p>
              </div>
 
              <div>
-                <i class="fas fa-mobile-alt"></i>
+                 <div>
+                    <i class="fas fa-mobile-alt"></i>
+                 </div>
                 <h3></h3> 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro</p>
              </div>
 
              <div>
-                <i class="fas fa-pencil-ruler"></i>
+                 <div>
+                    <i class="fas fa-pencil-ruler"></i>
+                 </div>
                 <h3></h3> 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro</p>
              </div>
@@ -63,7 +72,7 @@
 
     <!-- section avec formulaire + img de fond -->
     <section id="newsletter">
-        <div>
+        <div class="wrapper">
             <form action="actions/formNewsletter.php" method="POST" id="formNewsletter">
                 <input type="email" id="emailNewsletter" name="emailNewsletter" placeholder="Enter Your email adress for newsletter">
                 <input type="hidden" id="actionNewsletter" name="actionNewsletter" >
@@ -74,19 +83,19 @@
 
     <!-- section avec fond blanc et petite image -->
     <section id="ourWorks">
-            <div>
+            <div class="wrapper">
                 <div>
-                    <h2>our works</h2>
+                    <h2>our <span>works</span></h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi, et itaque, iusto.</p>
                 </div>
 
                 <div>
-                    <img src="#" alt="#" srcset="#">
-                    <img src="#" alt="#" srcset="#">
-                    <img src="#" alt="#" srcset="#">
-                    <img src="#" alt="#" srcset="#">
-                    <img src="#" alt="#" srcset="#">
-                    <img src="#" alt="#" srcset="#">
+                    <img src="ressources/images/p2/business-925900_1920.jpg" alt="#">
+                    <img src="ressources/images/p2/imac-606765_1920.jpg" alt="#">
+                    <img src="ressources/images/p2/ipad-606766_1920.jpg" alt="#">
+                    <img src="ressources/images/p2/office-605503_1920.jpg" alt="#">
+                    <img src="ressources/images/p2/macbook-624707_1920.jpg" alt="#">
+                    <img src="ressources/images/p2/technology-792180_1920.jpg" alt="#">
                 </div>
 
                 <a href="#">show more</a>
@@ -95,7 +104,7 @@
 
     <!-- section avec fond image et 1 commentaire -->
     <section id="reply">
-        <div>
+        <div class="wrapper">
             <img src="#" alt="#" srcset="#">
             <blockquote>
                 <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi, et itaque, iusto.</q>
@@ -109,8 +118,8 @@
         <h2>our <span>team</span></h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi, et itaque, iusto.</p>
 
-        <div>
-            <div>
+        <div class="wrapper">
+            <div class="column">
                 <img src="#" alt="#" srcset="#">
                 <h3>catherina gail</h3>
                 <div>
@@ -121,7 +130,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi.</p>
             </div>
 
-            <div>
+            <div class="column">
                 <img src="#" alt="#" srcset="#">
                 <h3>harvey rube</h3>
                 <div>
@@ -132,7 +141,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi.</p>
             </div>
 
-            <div>
+            <div class="column">
                 <img src="#" alt="#" srcset="#">
                 <h3>janet pris</h3>
                 <div>
@@ -143,7 +152,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi.</p>
             </div>
 
-            <div>
+            <div class="column">
                 <img src="#" alt="#" srcset="#">
                 <h3>kevin ward</h3>
                 <div>
@@ -164,8 +173,8 @@
     </section>
 
     <!-- section avec fond img et form de contact -->
-    <section id="conatct">
-        <div>
+    <section id="contact">
+        <div class="wrapper">
             <h2>say <span>hello</span></h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quasi porro necessitatibus deserunt non dolorum nisi, et itaque, iusto.</p>
 
@@ -191,8 +200,8 @@
     </section>
 
     <!-- section avec fond gris / footer -->
-    <footer>
-        <div>
+    <footer id="footer">
+        <div class="wrapper">
             <p><i class="far fa-copyright"></i> 2015 copyright design studio</p>
             <p>deisgned by symu<span>.</span>co</p>
         </div>
