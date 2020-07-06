@@ -12,10 +12,10 @@
             while (($data = fgetcsv($handle, 1000, ",")) !== FALSE){
                 for ($i=0; $i < count($data); $i++){
                     array_push($emailTab,$data[$i]);
-                    }
+                }
             }
             fclose($handle);
-            }
+        }
     }
 
     var_dump($emailTab);
