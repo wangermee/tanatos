@@ -3,10 +3,12 @@
     box-sizing: border-box;
     outline: none;
     font-family: 'Open Sans', sans-serif;
-    color: #3b434c;
+    
+    margin: 0;
+    padding: 0;
 }
 .wrapper{
-    max-width: 980px;
+    max-width: 1200px;
     margin:auto;
 }
 
@@ -24,6 +26,9 @@ h1,h2 {
     font-size: xx-large;
     font-weight: bolder;
 }
+h2{
+    padding-top: 90px;
+}
 span{
     color: #f7600e;
 }
@@ -33,6 +38,9 @@ section{
 a{
     text-decoration: none;
     text-transform: uppercase;
+}
+p{
+    line-height: 25px;
 }
 
 /* SECTION 1 WE DESIGN */
@@ -45,6 +53,10 @@ a{
     height: 800px;
     color: #ffffff;
 }
+#weDesign header{
+    padding: 40px 15px 0 30px;
+    font-size: 25px;
+}
 #weDesign header div{
     display: flex;
     justify-content: space-between;
@@ -52,22 +64,45 @@ a{
 #weDesign header div div p{
     padding-right: 10px;
 }
-#weDesign header div div svg{
-    margin-top: 16px;
+#weDesign h1{
+    padding: 120px 0 0 0;
+    font-size: 70px;
+    font-weight:bolder;
+}
+#weDesign h1+p{
+    margin: auto;   
+    font-size: 25px;
+    padding-bottom: 60px;
 }
 #weDesign a{
     color: #ffffff ;
 }
+#weDesign a{
+    border-radius: 10px;
+}
 #weDesign a:nth-child(1){
-    background-color: #f7600e;
+    background-color: #f7600e; 
+    padding: 10px 70px;
+    margin-right: 20px;
 }
 #weDesign a:nth-child(2){
     border: solid 1px #65696e;
+    padding: 10px 50px;
 }
+#weDesign #headerA+svg{
+    padding: 40px;
+    margin: 40px;
+}
+#arrowDown{
+    padding-top: 180px;
+    
+}
+
 
 /* SECTION 2 SKILL */
 #skill{
     height: 500px;
+    color: #3b434c;
 }
 #skill div{
     display: flex;
@@ -76,6 +111,10 @@ a{
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin: 30px;
+}
+#skill p{
+    padding-top: 20px;
 }
 #skill div div div svg{
     margin: auto;
@@ -85,6 +124,7 @@ a{
 .orange{
     color: orange;
 }
+
 /* SECTION 3 NEWSLETTER */
 #newsletter{
     background-image: url("../../ressources/images/p1/tablet-791051.jpg");
@@ -101,14 +141,36 @@ a{
 #newsletter div form{
     margin-top: 80px;
 }
+#newsletter div form input{
+    width: 500px;
+    line-height: 2;
+    border-radius: 10px;
+    border: 1px solid #3b434c;
+    padding-left: 20px;
+}
+#newsletter div form button{
+    background-color: #f7600e; 
+    padding: 10px 70px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
 
 /* SECTION 4 OUR WORKS */
 #ourWorks{
     height: 1300px;
+    color: #3b434c;
+}
+#ourWorks h2+p{
+    margin:30px 0 90px 0 ;
 }
 #ourWorks div div:nth-child(2){
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 120px;
     
 }
 #ourWorks div div:nth-child(2) img{
@@ -118,6 +180,10 @@ a{
 }
 #ourWorks a{
     border: solid 1px #65696e;
+    color: #65696e;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-top: 120px;
 }
 
 
@@ -128,6 +194,7 @@ a{
     background-repeat: no-repeat;
     /*background-size: cover;*/
     height: 500px;
+    color: #ffffff;
 }
 #reply div{
     padding-top: 160px;
@@ -136,6 +203,7 @@ a{
 /* SECTION 6 OUR TEAM */
 #team{
     height: 1000px;
+    color: #3b434c;
 }
 #team div{
     display: flex;
@@ -153,6 +221,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
+    color: #ffffff;
 
 }
 
