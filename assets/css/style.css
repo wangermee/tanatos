@@ -173,10 +173,31 @@ p{
     margin-bottom: 120px;
     
 }
-#ourWorks div div:nth-child(2) img{
-    width: 33%;
-    
-    padding: 10px;
+#ourWorks div div:nth-child(2) div{
+    width: 30%;
+    height: 360px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#ourWorks div div:nth-child(2) div:nth-child(1){
+    background-image: url("../../ressources/images/p2/business-925900_1920.jpg");
+}
+#ourWorks div div:nth-child(2) div:nth-child(2){
+    background-image: url("../../ressources/images/p2/imac-606765_1920.jpg");
+}
+#ourWorks div div:nth-child(2) div:nth-child(3){
+    background-image: url("../../ressources/images/p2/ipad-606766_1920.jpg");
+}
+#ourWorks div div:nth-child(2) div:nth-child(4){
+    background-image: url("../../ressources/images/p2/macbook-624707_1920.jpg");
+}
+#ourWorks div div:nth-child(2) div:nth-child(5){
+    background-image: url("../../ressources/images/p2/office-605503_1920.jpg");
+}
+#ourWorks div div:nth-child(2) div:nth-child(6){
+    background-image: url("../../ressources/images/p2/technology-792180_1920.jpg");
 }
 #ourWorks a{
     border: solid 1px #65696e;
@@ -199,20 +220,41 @@ p{
 #reply div{
     padding-top: 160px;
 }
+#reply q{
+    font-style: italic;
+    line-height: 25px;
+    font-size: 20px;
+}
 
 /* SECTION 6 OUR TEAM */
 #team{
     height: 1000px;
     color: #3b434c;
 }
-#team div{
+#team h2+p{
+    margin:30px 0 90px 0 ;
+}
+#team .profil{
     display: flex;
+    justify-content:space-between;
 }
 #team div .column{
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
-
+#team .teamMedia{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    
+}
+#team .teamMedia img{
+    height: 30px;
+}
+#team #circle{
+    margin-top: 90px;
+}
 
 /* SECTION 7 CONTACT */
 #contact{
