@@ -90,13 +90,9 @@ p{
     border: solid 1px #65696e;
     padding: 10px 50px;
 }
-#weDesign #headerA+svg{
-    padding: 40px;
-    margin: 40px;
-}
+
 #arrowDown{
-    padding-top: 180px;
-    
+    padding-top: 180px;   
 }
 
 
@@ -112,19 +108,37 @@ p{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    margin:90px 30px 0 30px;
 }
 #skill p{
     padding-top: 20px;
 }
-#skill div div div svg{
+#skill h3{
+    margin-top: 40px;
+}
+#skill div div div{
     margin: auto;
-    border: solid 1px #65696e;
-    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border: solid 1px #65696e;   
+    border-radius: 100%;  
 }
-.orange{
-    color: orange;
+#skill div div div img{
+       margin: auto;
 }
+#skill #skill1{
+    width: 60px;
+}
+#skill #skill2{
+    width: 70px;
+}
+#skill #skill3{
+    width: 40px;
+}
+#skill #skill4{
+    width: 40px;
+}
+
 
 /* SECTION 3 NEWSLETTER */
 #newsletter{
@@ -214,17 +228,23 @@ p{
     background-image: url("../../ressources/images/p3/woman-690036.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
     height: 500px;
     color: #ffffff;
 }
+#reply #avatar{
+    border-radius: 100%;
+    margin-bottom: 40px;
+}
 #reply div{
-    padding-top: 160px;
+    padding-top: 100px;
 }
 #reply q{
     font-style: italic;
     line-height: 25px;
     font-size: 20px;
+}
+#reply footer{
+    margin-top: 40px;
 }
 
 /* SECTION 6 OUR TEAM */
@@ -233,7 +253,7 @@ p{
     color: #3b434c;
 }
 #team h2+p{
-    margin:30px 0 90px 0 ;
+    margin:30px 0 60px 0 ;
 }
 #team .profil{
     display: flex;
@@ -244,6 +264,24 @@ p{
     flex-direction: column;
     margin: 30px;
 }
+#team .imgTeam{
+    height: 280px ;
+    width: 230px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#team #t1{
+    background-image: url("../../ressources/images/team/t1.jpg");
+}
+#team #t2{
+    background-image: url("../../ressources/images/team/t2.jpg");
+}
+#team #t3{
+    background-image: url("../../ressources/images/team/t3.jpg");
+}
+#team #t4{
+    background-image: url("../../ressources/images/team/t4.jpg");
+}
 #team .teamMedia{
     display: flex;
     justify-content: center;
@@ -252,9 +290,12 @@ p{
 }
 #team .teamMedia img{
     height: 30px;
+    padding: 0 5px;
+    
 }
 #team #circle{
-    margin-top: 90px;
+    margin-top: 50px;
+    padding: 0 5px;
 }
 
 /* SECTION 7 CONTACT */
