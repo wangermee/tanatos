@@ -15,9 +15,15 @@
                 }
             }
             fclose($handle);
+            var_dump($emailTab);
+
+            $arr = array('error' => false);
+            echo(json_encode($arr));
+            return;
         }
+
     }
 
-    var_dump($emailTab);
+
 
 
