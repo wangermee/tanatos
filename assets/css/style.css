@@ -18,6 +18,14 @@
     height: 9em;
     padding: 38px;
 }
+h1{
+    font-family: sans-serif;
+
+}
+h1 span{
+    font-family: sans-serif;
+
+}
 h1, h2, h3{
     text-transform: uppercase;
 }
@@ -51,7 +59,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     /*background: rgba(0,0,0,0.6);*/
-    height: 800px;
+    /*height: 800px;*/
     color: #ffffff;
 }
 #weDesign header{
@@ -66,14 +74,19 @@ p{
     padding-right: 10px;
 }
 #weDesign h1{
-    padding: 120px 0 0 0;
+    padding: 120px 20px 0 20px;
     font-size: 70px;
     font-weight:bolder;
 }
 #weDesign h1+p{
     margin: auto;   
     font-size: 25px;
-    padding-bottom: 60px;
+    padding:0 10px 60px 10px;
+}
+#weDesign #headerA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #weDesign a{
     color: #ffffff ;
@@ -84,7 +97,7 @@ p{
 #weDesign a:nth-child(1){
     background-color: #f7600e; 
     padding: 10px 70px;
-    margin-right: 20px;
+    margin-bottom: 20px;
 }
 #weDesign a:nth-child(2){
     border: solid 1px #65696e;
@@ -92,19 +105,26 @@ p{
 }
 
 #arrowDown{
-    padding-top: 180px;   
+    padding-top: 180px; 
+    padding-bottom: 20px;
+    
 }
 
 
 /* SECTION 2 SKILL */
+
 #skill{
-    height: 500px;
+    
     color: #3b434c;
 }
 #skill div{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
 }
 #skill div div{
+    max-width: 250px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -141,6 +161,7 @@ p{
 
 
 /* SECTION 3 NEWSLETTER */
+
 #newsletter{
     background-image: url("../../ressources/images/p1/tablet-791051.jpg");
     background-position: center;
@@ -154,43 +175,46 @@ p{
     margin-top: auto;
 }
 #newsletter div form{
-    margin-top: 80px;
+    margin: 80px 10px 0 10px;
 }
 #newsletter div form input{
-    width: 500px;
+    width: 320px;
     line-height: 2;
     border-radius: 10px;
     border: 1px solid #3b434c;
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 #newsletter div form button{
     background-color: #f7600e; 
     padding: 10px 70px;
-    margin-right: 20px;
     border-radius: 10px;
     border: none;
     color: #ffffff;
     text-transform: uppercase;
-    margin-left: 40px;
+    /*margin-left: 40px;*/
 }
 
 /* SECTION 4 OUR WORKS */
+
 #ourWorks{
-    height: 1300px;
+    /*height: 1300px;*/
     color: #3b434c;
 }
 #ourWorks h2+p{
-    margin:30px 0 90px 0 ;
+    margin:30px 10px 90px 10px ;
 }
 #ourWorks div div:nth-child(2){
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;/**/
+    align-items: center;/**/
     margin-bottom: 120px;
     
 }
 #ourWorks div div:nth-child(2) div{
-    width: 30%;
-    height: 360px;
+    width: 80%;/**/
+    height: 360px;/**/
     margin: 10px;
     background-position: center;
     background-size: cover;
@@ -219,12 +243,14 @@ p{
     color: #65696e;
     border-radius: 10px;
     padding: 10px 30px;
-    margin-top: 120px;
+    /*margin-top: 120px;*/
 }
 
 
 /* SECTION 5 REPLY */
+
 #reply{
+    margin-top:120px;
     background-image: url("../../ressources/images/p3/woman-690036.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -242,6 +268,7 @@ p{
     font-style: italic;
     line-height: 25px;
     font-size: 20px;
+    margin:0 10px;
 }
 #reply footer{
     margin-top: 40px;
@@ -249,15 +276,16 @@ p{
 
 /* SECTION 6 OUR TEAM */
 #team{
-    height: 1000px;
     color: #3b434c;
 }
 #team h2+p{
-    margin:30px 0 60px 0 ;
+    margin:30px 10px 60px 10px ;
 }
 #team .profil{
     display: flex;
-    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    
 }
 #team div .column{
     display: flex;
@@ -265,6 +293,7 @@ p{
     margin: 30px;
 }
 #team .imgTeam{
+    margin: auto;
     height: 280px ;
     width: 230px;
     border-radius: 10px;
@@ -297,6 +326,10 @@ p{
     margin-top: 50px;
     padding: 0 5px;
 }
+#team .column p{
+    margin: 0 10px ;
+    max-width: 300px;
+}
 
 /* SECTION 7 CONTACT */
 #contact{
@@ -304,19 +337,22 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    /*height: 800px;*/
     color: #ffffff;
+    margin-top: 120px;
 
 }
 #contact h2+p{
-    margin:30px 0 90px 0 ;
+    margin:30px 10px 90px 10px ;
 }
 #contact div form{
+    padding: 10px;
     max-width:820px ;
     margin: auto;
 }
 #contact div form input{
-    width: 48%;
+    /*width: 48%;*/
+    width: 100%;
     line-height: 2;
     border-radius: 10px;
     border: 1px solid #3b434c;
@@ -346,28 +382,129 @@ p{
 }
 #contact #formHeader{
     display: flex;
-    flex-wrap: nowrap;
+    /*flex-wrap: nowrap;*/
+    flex-wrap: wrap;
+    flex-direction: column;/**/
+    align-items: center;/**/
     justify-content: space-between;
 }
 #contact #formFooter{
-    margin-top: 30px;
+    margin: 30px 0 90px 0;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+}
+#contact #formFooter button{
+    max-width: 200px;
+    margin-bottom: 40px;
 }
 
 
 /* SECTION 8 FOOTER */
 #footer{
     background-color: #3b434c;
-    height: 100px;
 }
 #footer div{
     display: flex;
     justify-content: space-between;
+    font-size: 10px;
+    margin:auto;
 }
 #footer p{
-    margin: 0;
+    /*margin: 0;*/
+    padding: 10px;
     color: #ffffff;
     line-height: 100px;
+}
+
+
+@media screen and (min-width: 576px) {
+    #newsletter div form button{
+        margin-left: 20px;
+    }
+    #contact #formFooter{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #contact #formFooter button{
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    #weDesign #headerA{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #weDesign a:nth-child(1){
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+    #skill div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #newsletter div form button{
+        margin-left: 40px;
+    }
+    #ourWorks div div:nth-child(2){
+        flex-direction: row;
+        justify-content: center;
+    }
+    #ourWorks div div:nth-child(2) div{
+        width: 40%;
+        height: 360px;
+    }
+    #team .profil{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+
+
+
+
+    
+}
+
+@media screen and (min-width: 992px) {
+    #weDesign{
+        height: 800px;   
+    }
+    #skill div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;    
+    }
+    #newsletter div form input{
+        width: 500px;
+    }
+    #contact div form input{
+        width: 48%;
+    }
+    #contact #formHeader{
+        flex-wrap: nowrap;
+        flex-direction: row;/**/
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    #team .profil{
+        flex-wrap: nowrap;
+    }
 }
 
