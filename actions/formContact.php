@@ -7,11 +7,16 @@
         $headers .= 'From:' . $_POST["emailContact"] . "\r\n";
         $to       = 'tanatostest@gmail.com';
 
-        if(mail($to,$_POST["subject"],$_POST["message"],$headers, "-f")){
-            echo "WOOHOO, email sent";
+        if(mail($to,$_POST["subject"],$_POST["message"],$headers)){
+            $arr = array('error' => false);
+            echo(json_encode($arr));
+            return;
         }
         else{
-            echo "BUMMER, email failed";
+
+            $arr = array('error' => true, 'msg' => "BUMMER, email failed");
+            echo(json_encode($arr));
+            return;
         }
     }
 
