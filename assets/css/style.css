@@ -6,6 +6,8 @@
     
     margin: 0;
     padding: 0;
+
+    
 }
 .wrapper{
     max-width: 1200px;
@@ -61,7 +63,10 @@ p{
     /*background: rgba(0,0,0,0.6);*/
     /*height: 800px;*/
     color: #ffffff;
+
+
 }
+
 #weDesign header{
     padding: 40px 15px 0 30px;
     font-size: 25px;
@@ -99,9 +104,15 @@ p{
     padding: 10px 70px;
     margin-bottom: 20px;
 }
+#weDesign a:nth-child(1):hover{/* couleur a modifier */
+    background-color: green;
+}
 #weDesign a:nth-child(2){
     border: solid 1px #65696e;
     padding: 10px 50px;
+}
+#weDesign a:nth-child(2):hover{/* couleur a modifier */
+    background-color: slateblue;
 }
 
 #arrowDown{
@@ -128,8 +139,24 @@ p{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin:90px 30px 0 30px;
+    margin-top: 90px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    /*
+    margin:90px 30px 0 30px;*/
 }
+#skill div div:hover{
+    transition-duration: 1s;
+    margin-top: 60px;
+}
+#skill div div div{
+    margin-top: 0px;
+}
+#skill div div div:hover{
+    margin-top: 0;
+}
+
 #skill p{
     padding-top: 20px;
 }
@@ -194,6 +221,9 @@ p{
     text-transform: uppercase;
     /*margin-left: 40px;*/
 }
+#newsletter div form button:hover{/* couleur a modifier*/
+    background-color: teal;
+}
 
 /* SECTION 4 OUR WORKS */
 
@@ -219,9 +249,14 @@ p{
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+
+    
+
 }
+
 #ourWorks div div:nth-child(2) div:nth-child(1){
     background-image: url("../../ressources/images/p2/business-925900_1920.jpg");
+
 }
 #ourWorks div div:nth-child(2) div:nth-child(2){
     background-image: url("../../ressources/images/p2/imac-606765_1920.jpg");
@@ -244,6 +279,9 @@ p{
     border-radius: 10px;
     padding: 10px 30px;
     /*margin-top: 120px;*/
+}
+#ourWorks a:hover{/*couleur a modifier*/
+    background-color: turquoise;
 }
 
 
@@ -287,11 +325,34 @@ p{
     align-items: center;
     
 }
+
 #team div .column{
     display: flex;
     flex-direction: column;
     margin: 30px;
+
+    border-radius: 10px;
+    padding: 20px 0;   
 }
+#team div .column div{
+    opacity: 0.7 ;
+}
+
+#team div .column:hover div{
+    opacity: 1;
+}
+#team div .column:hover div{
+    overflow: hidden;
+    transition-duration: 2s;
+    -webkit-transform:scale(1.1); /* Safari et Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* Internet Explorer 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+}
+
+
+
 #team .imgTeam{
     margin: auto;
     height: 280px ;
@@ -398,6 +459,9 @@ p{
 #contact #formFooter button{
     max-width: 200px;
     margin-bottom: 40px;
+}
+#contact #formFooter button:hover{
+    background-color: tomato;
 }
 
 
