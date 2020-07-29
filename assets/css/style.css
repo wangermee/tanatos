@@ -80,6 +80,19 @@ p{
     font-size: 25px;
     padding:0 10px 60px 10px;
 }
+#weDesign #nav{
+    height: 20px;
+}
+#weDesign nav{
+    display: none;
+}
+#weDesign nav a{
+    padding: 0 10px;
+}
+#weDesign nav a:hover{
+    transition-delay:0.2s;
+    border-bottom: solid 2px #f7600e ;
+}
 #weDesign #headerA{
     display: flex;
     flex-direction: column;
@@ -88,22 +101,22 @@ p{
 #weDesign a{
     color: #ffffff ;
 }
-#weDesign a{
+#weDesign #headerA a{
     border-radius: 10px;
 }
-#weDesign a:nth-child(1){
+#weDesign #headerA a:nth-child(1){
     background-color: #f7600e; 
     padding: 10px 70px;
     margin-bottom: 20px;
 }
-#weDesign a:nth-child(1):hover{
+#weDesign #headerA a:nth-child(1):hover{
     background-color: #f78a0e;
 }
-#weDesign a:nth-child(2){
+#weDesign #headerA a:nth-child(2){
     border: solid 1px #65696e;
     padding: 10px 50px;
 }
-#weDesign a:nth-child(2):hover{
+#weDesign #headerA a:nth-child(2):hover{
     background-color: #a6abaf;
 }
 #arrowDown{
@@ -513,7 +526,10 @@ p{
         align-items: center;
         justify-content: center;
     }
-    #weDesign a:nth-child(1){
+    #weDesign nav{
+        margin: auto;
+    }
+    #weDesign #headerA a:nth-child(1){
         margin-bottom: 0;
         margin-right: 20px;
     }
