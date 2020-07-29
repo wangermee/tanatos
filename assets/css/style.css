@@ -83,6 +83,9 @@ p{
 #weDesign #nav{
     height: 20px;
 }
+#weDesign #navBar{
+    cursor:pointer;
+}
 #weDesign nav{
     display: none;
 }
